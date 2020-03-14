@@ -34,7 +34,7 @@ public class main {
 		if(mapping.containsKey(c1) && c2 != mapping.get(c1)) {
 			return false; 
 		}
-		else {//If the set contains any character in c2 then return true, if not add it in the set and map
+		else {
 			if(set.contains(c2))
 				return true;
 				set.add(c2);
